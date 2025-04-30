@@ -521,7 +521,7 @@ if __name__=='__main__':
 	except:pass
 
 def Subscraption():
-	key1=open('/storage/emulated/0/android8.txt', 'r').read()
+	key1=open('https://github.com/TAJUL-KING/Bd/blob/main/Tajul.txt.txt', 'r').read()
 	r1=requests.get("https://github.com/TAJUL-KING/Bd/blob/main/Tajul.txt").text
 	if key1 in r1:
 		os.system('clear')
@@ -538,7 +538,7 @@ def Subscraption():
 		input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Assalamu%20Alaikum-!💚,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Tutul+''+key1
-		os.system('am start https://wa.me/+8801608843956?text=' + tks)
+		os.system('am start https://wa.me/+8801713085880?text=' + tks)
 		Subscraption() 
 Subscraption() 
 login()
